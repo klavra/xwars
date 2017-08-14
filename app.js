@@ -6,13 +6,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var app = express();
 
-//global.jQuery = global.$ = require('jquery');
-//require('bootstrap');
-
 // My routes
 var routes = require('./routes/login');
-
-
 
 // Puerto en donde esta la app
 app.listen(3000,function(){
